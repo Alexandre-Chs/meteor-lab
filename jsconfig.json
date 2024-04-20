@@ -53,6 +53,30 @@
       "meteor/blaze-hot": [
         "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/blaze-hot/1.1.2/web.browser/hot.js",
         "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/blaze-hot/1.1.2/web.browser/update-templates.js"
+      ],
+      "meteor/ostrio:flow-router-extra": [
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/ostrio_flow-router-extra/3.10.1/web.browser/client/_init.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/ostrio_flow-router-extra/3.10.1/web.browser/client/active.route.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/ostrio_flow-router-extra/3.10.1/web.browser/client/group.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/ostrio_flow-router-extra/3.10.1/web.browser/client/modules.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/ostrio_flow-router-extra/3.10.1/web.browser/client/renderer.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/ostrio_flow-router-extra/3.10.1/web.browser/client/route.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/ostrio_flow-router-extra/3.10.1/web.browser/client/router.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/ostrio_flow-router-extra/3.10.1/web.browser/client/triggers.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/ostrio_flow-router-extra/3.10.1/web.browser/lib/_helpers.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/ostrio_flow-router-extra/3.10.1/web.browser/server/_init.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/ostrio_flow-router-extra/3.10.1/web.browser/server/group.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/ostrio_flow-router-extra/3.10.1/web.browser/server/route.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/ostrio_flow-router-extra/3.10.1/web.browser/server/router.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/ostrio_flow-router-extra/3.10.1/web.browser/server/plugins/fast-render.js"
+      ],
+      "meteor/accounts-password": [
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/accounts-password/2.4.0/web.browser/password_client.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/accounts-password/2.4.0/web.browser/email_templates.js",
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/accounts-password/2.4.0/web.browser/password_server.js"
+      ],
+      "meteor/kadira:blaze-layout": [
+        "C:\\Users\\oliuu\\AppData\\Local/.meteor/packages/kadira_blaze-layout/2.0.1/web.browser//packages/kadira_blaze-layout.js"
       ]
     }
   },

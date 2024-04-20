@@ -9,8 +9,10 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.23.5",
+    "bcrypt": "^5.1.1",
     "jquery": "^3.7.1",
-    "meteor-node-stubs": "^1.2.7"
+    "meteor-node-stubs": "^1.2.7",
+    "postcss-load-config": "^5.0.3"
   },
   "meteor": {
     "mainModule": {

@@ -1,3 +1,7 @@
+<body class="w-screen h-screen bg-primary">
+  {{>App}}
+</body>
+
 <template name="App">
-  <p class="text-sm text-red-400">Hello world !</p>
+  {{#if isUserLogged}} {{>Home}} {{else}} {{>login_form}} {{/if}}
 </template>
