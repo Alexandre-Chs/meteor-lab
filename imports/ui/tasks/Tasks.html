@@ -31,7 +31,8 @@
     >
       <p>{{todo.name}}</p>
       <button
-        class="p-2 ml-auto font-semibold text-white js-delete-task bg-quaternary rounded-xl"
+        data-id="{{todo._id}}"
+        class="p-2 ml-auto font-semibold text-white js-delete js-delete-task bg-quaternary rounded-xl"
       >
         Supprimer
       </button>

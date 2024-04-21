@@ -10,8 +10,14 @@ Template.form_task.events({
   "submit .js-submit-task"(event) {
     event.preventDefault();
     const name = event.target.task.value;
-
     Meteor.call("tasks.insert", name);
+  },
+});
+
+Template.show_tasks.events({
+  "click .js-delete"(event) {
+    const taskId = event.target.getAttribute("data-id");
+    Meteor.call("tasks.remove", taskId);
   },
 });
 

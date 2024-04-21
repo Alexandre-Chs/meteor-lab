@@ -2,6 +2,7 @@ import { Template } from "meteor/templating";
 import { Meteor } from "meteor/meteor";
 import "./Home.html";
 import "../tasks/Tasks.js";
+import "../userlist/UserList.js";
 
 Template.logout.events({
   "click .js-logout"() {

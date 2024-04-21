@@ -1,0 +1,6 @@
+<template name="UsersList">
+  <h3>Liste de tout les utilisateurs</h3>
+  {{#each user in userlist}}
+  <div class="text-sm font-medium text-center">{{user.username}}</div>
+  {{/each}}
+</template>
