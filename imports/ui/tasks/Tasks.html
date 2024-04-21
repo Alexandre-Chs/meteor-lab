@@ -1,0 +1,41 @@
+<template name="Tasks"> {{> form_task}} </template>
+
+<template name="form_task">
+  <div
+    class="flex flex-col items-center justify-center p-6 mx-auto mt-12 bg-white rounded-xl min-w-[600px]"
+  >
+    <form class="js-submit-task">
+      <input
+        type="text"
+        name="task"
+        placeholder="Ecris une tâche.."
+        class="w-full p-2 border-2 border-gray rounded-xl"
+      />
+      <button
+        type="submit"
+        class="w-full p-2 mt-2 text-sm font-semibold text-white rounded-xl bg-quaternary"
+      >
+        Ajouter la tâche
+      </button>
+    </form>
+
+    {{> show_tasks}}
+  </div>
+</template>
+
+<template name="show_tasks">
+  <div class="w-full mt-12">
+    {{#each todo in todos}}
+    <div
+      class="grid items-center content-center grid-cols-2 p-2 mt-2 cursor-pointer hover:bg-primary rounded-xl"
+    >
+      <p>{{todo.name}}</p>
+      <button
+        class="p-2 ml-auto font-semibold text-white js-delete-task bg-quaternary rounded-xl"
+      >
+        Supprimer
+      </button>
+    </div>
+    {{/each}}
+  </div>
+</template>
